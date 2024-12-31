@@ -1,0 +1,108 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.search {
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Banner styles */
+.banner {
+    background-color: #f4f4f4;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.minibanner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+/* Card styles */
+.cards {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.cards p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.cards button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cards button:hover {
+    background-color: #0056b3;
+}
+
+/* Cart and Contact sections styles */
+.cart,
+.contact {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin-top: 2rem;
+}
